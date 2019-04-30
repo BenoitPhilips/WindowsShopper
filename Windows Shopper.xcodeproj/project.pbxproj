@@ -35,6 +35,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		009EEB1522780E1100593074 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		009EEB1622780E2E00593074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00D6553322780B2000AB8134 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		009EEB1722780E3400593074 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00D6553122780B2000AB8134 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		009EEB1822780E5300593074 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				00D6553622780B2100AB8134 /* Assets.xcassets */,
+				00D6553822780B2100AB8134 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		00D6552322780B2000AB8134 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				00D6552F22780B2000AB8134 /* AppDelegate.swift */,
-				00D6553122780B2000AB8134 /* ViewController.swift */,
-				00D6553322780B2000AB8134 /* Main.storyboard */,
-				00D6553622780B2100AB8134 /* Assets.xcassets */,
-				00D6553822780B2100AB8134 /* LaunchScreen.storyboard */,
+				009EEB1722780E3400593074 /* Controllers */,
+				009EEB1622780E2E00593074 /* Views */,
+				009EEB1522780E1100593074 /* Models */,
+				009EEB1822780E5300593074 /* Other */,
 				00D6553B22780B2100AB8134 /* Info.plist */,
 			);
 			path = "Windows Shopper";
