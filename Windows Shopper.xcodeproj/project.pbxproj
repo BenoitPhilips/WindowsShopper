@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009EEB1C2278259000593074 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EEB1B2278259000593074 /* CurrencyTextField.swift */; };
 		00D6553022780B2000AB8134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6552F22780B2000AB8134 /* AppDelegate.swift */; };
-		00D6553222780B2000AB8134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6553122780B2000AB8134 /* ViewController.swift */; };
+		00D6553222780B2000AB8134 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6553122780B2000AB8134 /* MainVC.swift */; };
 		00D6553522780B2000AB8134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D6553322780B2000AB8134 /* Main.storyboard */; };
 		00D6553722780B2100AB8134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D6553622780B2100AB8134 /* Assets.xcassets */; };
 		00D6553A22780B2100AB8134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D6553822780B2100AB8134 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		009EEB1B2278259000593074 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		00D6552C22780B2000AB8134 /* Windows Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windows Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D6552F22780B2000AB8134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00D6553122780B2000AB8134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00D6553122780B2000AB8134 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		00D6553422780B2000AB8134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D6553622780B2100AB8134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D6553922780B2100AB8134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				00D6553322780B2000AB8134 /* Main.storyboard */,
+				009EEB1B2278259000593074 /* CurrencyTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -53,7 +56,7 @@
 		009EEB1722780E3400593074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				00D6553122780B2000AB8134 /* ViewController.swift */,
+				00D6553122780B2000AB8134 /* MainVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D6553222780B2000AB8134 /* ViewController.swift in Sources */,
+				009EEB1C2278259000593074 /* CurrencyTextField.swift in Sources */,
+				00D6553222780B2000AB8134 /* MainVC.swift in Sources */,
 				00D6553022780B2000AB8134 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
