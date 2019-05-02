@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001ACDAC227AB9CA001F4F60 /* Windows ShopperTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 009EEB2122798F0500593074 /* Windows ShopperTests.xctest */; };
 		009EEB1C2278259000593074 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EEB1B2278259000593074 /* CurrencyTextField.swift */; };
-		009EEB2422798F0500593074 /* Windows_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EEB2322798F0500593074 /* Windows_ShopperTests.swift */; };
 		009EEB2C22798F3000593074 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EEB2B22798F3000593074 /* Wage.swift */; };
 		009EEB2D2279907100593074 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EEB2B22798F3000593074 /* Wage.swift */; };
 		00D6553022780B2000AB8134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6552F22780B2000AB8134 /* AppDelegate.swift */; };
@@ -216,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001ACDAC227AB9CA001F4F60 /* Windows ShopperTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009EEB2422798F0500593074 /* Windows_ShopperTests.swift in Sources */,
 				009EEB2D2279907100593074 /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
